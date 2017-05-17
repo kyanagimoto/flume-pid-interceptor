@@ -2,7 +2,6 @@ package org.kyanagimoto.flume.interceptor;
 
 import java.util.*;
 import org.apache.flume.interceptor.Interceptor;
-import org.apache.log4j.Logger;
 import org.apache.flume.Event;
 import org.apache.flume.Context;
 
@@ -11,13 +10,6 @@ import org.apache.flume.Context;
  */
 
 public class PidInterceptor implements Interceptor {
-    private static final Logger LOG;
-    static {
-        LOG = Logger.getLogger(PidInterceptor.class);
-    }
-
-    private Context ctx;
-
     @Override
     public void initialize() {}
 

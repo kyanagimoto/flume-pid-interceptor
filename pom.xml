@@ -6,7 +6,7 @@
 
     <groupId>org.kyanagimoto.flume.interceptor</groupId>
     <artifactId>flume-pid-interceptor</artifactId>
-    <version>0.2</version>
+    <version>0.3</version>
     <build>
         <plugins>
             <plugin>
