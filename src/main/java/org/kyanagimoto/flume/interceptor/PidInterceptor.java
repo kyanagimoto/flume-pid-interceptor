@@ -4,7 +4,6 @@ import java.util.*;
 import org.apache.flume.interceptor.Interceptor;
 import org.apache.log4j.Logger;
 import org.apache.flume.Event;
-import org.apache.flume.Context;
 
 /**
  * Created by koichi.yanagimoto on 2017/05/17.
@@ -36,13 +35,4 @@ public class PidInterceptor implements Interceptor {
 
     @Override
     public void close() {}
-
-    public static class Builder implements Interceptor.Builder {
-        @Override
-        public Interceptor build() {
-            return new PidInterceptor();
-        }
-        @Override
-        public void configure(Context context) {}
-    }
 }
