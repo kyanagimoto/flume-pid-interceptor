@@ -28,6 +28,6 @@ agent.sinks = s1
 agent.sources.r1.interceptor = i1
 agent.sources.r1.interceptors.i1.type = org.kyanagimoto.flume.interceptor.FlumePidInterceptor$Builder
 
-agent.sinks.s1.hdfs.filePrefix = hoge-${flumePid}
+agent.sinks.s1.hdfs.filePrefix = sample-prefix-${flumePid}
 ```
 # Change Log
